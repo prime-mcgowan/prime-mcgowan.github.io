@@ -1,3 +1,3 @@
 # prime-mcgowan.github.io
 
-![bwphoto](/img/headshot.jpg)
+![bwphoto](file:///C:/Users/Laura/Documents/Prime/Final%20Resume/img/headshot.jpg)
