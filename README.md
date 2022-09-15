@@ -1,3 +1,3 @@
 # prime-mcgowan.github.io
-![Headshot](/img/headshot.jpg)
+![My Image](.../images/headshot.jpg)
 
