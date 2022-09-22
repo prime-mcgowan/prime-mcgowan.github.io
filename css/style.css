@@ -97,7 +97,7 @@ body{
 
 /**Start of Animation Section**/
 .text{
-    animation:text 2s 1;
+    animation:text 3s 3;
     font-size:26px;
     font-weight: bold;  
     padding-top: 50px;
