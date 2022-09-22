@@ -248,7 +248,7 @@ body{
 /**End of Footer Section**/
 
 /**Start Mediq Queries**/
-@media  (max-width: 629px) {
+@media  (max-width: 640px) {
 .header img{
         display:none;
     }
