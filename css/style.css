@@ -1,68 +1,199 @@
 /**Start of Body Section**/
-body{background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+body{
+    background-color: #fa9a8b;
+
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-left: 20px;
+    padding-top:50px;
 }
 /**End of Body Section**/
 
 
+/**Start of Main Section**/
+.main-section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/**Start of Main Section**/
+
+
 /**Start of Header Section**/
 .header{
-    border-bottom: 5px dotted;
-    text-align: center;
+    border: 2px dotted;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    
+
+
+    
+    
+    
+
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align:center;
 }
 
-.header h1{
-    font-size: 45px;
-    margin-bottom: 5px;
+.header-content{
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+    
+
+.header-content h1{
+    clear:none;
+    margin-top: 70px;
 }
 
-.header img{
-    border:dotted;
+.header-content a{
+    color:black;
+    text-decoration: none;
+}
+
+#bw{
+    float:left;
+}
+
+.header ul{
+   margin-top:-30px;
+}
+
+.header-content ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin:0.75rem 1rem;
+}
+
+.header-content ul li fa-phone{
+    padding:100px;
+}
+
+.fa-phone{
+    padding:.5rem;
+}
+
+.fa-envelope{
+    padding:.5rem;
+}
+
+.fa-github{
+  padding:4px;
+}
+
+.fa-print{
+    padding:.5rem;
+}
+
+.header button{
+    background-color: transparent; 
+    color:black;
 }
 /**End of Header Section**/
 
 
+/**Start of Animation Section**/
+.text{
+    animation:text 2s 1;
+    font-size:26px;
+    font-weight: bold;  
+    padding-top: 50px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+@keyframes text{
+    0%{ 
+    }
+
+    30%{
+        letter-spacing: 20px;
+        color:#f64e70;
+        font-weight: bold;
+      
+    }
+
+    85%{
+        letter-spacing: 10px;
+        color:#f64e70;
+        font-weight: bold;
+        
+    }  
+}
+/**End of Animation Section**/
+
+
 /**Start of Experience Section**/
 .experience{
-    padding-top: 30px;
+    padding-top:30px;
+}
+
+.experience h2{
+    padding-top: 80px;
     text-align: left;
     text-decoration: underline;
     text-transform: uppercase;   
 }
 
-.listed-exp h3{
+.teacher{
+    padding:5px;
+}
+
+.teacher h3{
     padding:10px;
 }
 
-.listed-exp ul li{
+.teacher ul li{
     font-size:20px;
 }
 
+.liaison{
+    padding-top: 5px;
+}
 
+.liaison h3{
+    padding:10px;
+}
+
+.liaison ul li{
+    font-size:20px;
+}
 
 .code-savvy{
-    color: darkviolet;
-    font-weight: bold;    
+    color: #2c1003;
+    font-weight: bold; 
+  
+   
+}
+
+.experience a {
+    text-decoration-color: #f64e70;
 }
 
 .ozobots {
    font-weight:bold;  
-   color:darkviolet;
+   color:black;
 }
 
 .microbits{
     font-weight: bold;
-    color:darkviolet;
+    color:black;
+    
+   
     
 }
 /**End of Experience Section**/
 
 
 /**Start of Related Section**/
+.related{
+    padding-top: 30px;
+}
+
 .related h2{
     padding-top: 30px;
     text-align: left;
@@ -81,9 +212,7 @@ body{background: #ee9ca7;  /* fallback for old browsers */
 /**Start of Education Section**/
 .education{
     padding-top: 30px;
-    text-align: left;
-    text-decoration:underline ;
-    text-transform: uppercase; 
+    text-align: left;   
 }
 
 .listed-ed ul li{
@@ -91,16 +220,17 @@ body{background: #ee9ca7;  /* fallback for old browsers */
     list-style:none;
     margin-left: -20px;
     text-align: left;  
-      
 }
-/**Start of Education Section**/
+/**End of Education Section**/
 
 
 /**Start of Footer Section**/
 .footer{
-    background-color: #ee9ca7;    
-    bottom:0;
-    width: 100%;    
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    font-size: 20px;
+    position: absolute; 
+    width:100%; 
 }
 
 .footer ul{
@@ -109,24 +239,19 @@ body{background: #ee9ca7;  /* fallback for old browsers */
 
 .footer ul li{
     display: inline-block;
-    margin:0.75rem 1rem;
+    margin:0.75rem 1rem; 
 }
 
-.fa-phone{
-    padding:.5rem;
-}
-
-.fa-envelope{
-    padding:.5rem;
-}
-
-.fa-print{
-    padding:.5rem;
+.footer a{
+    color:black;
+    text-decoration: none;
 }
 
 .footer button{
-    background-color: #ee9ca7; 
-    color: #9400d3;
-}
+        background-color: transparent; 
+        color:black;
+       
+    }
 /**End of Footer Section**/
+
 
