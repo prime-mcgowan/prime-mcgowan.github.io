@@ -259,7 +259,10 @@ body{
 
 .header-content ul li {
    margin-left:-30px;
-   
+}
+    
+.fa-envelope{
+    padding:.2rem;
 }
 
 @keyframes text{    
