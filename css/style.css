@@ -1,0 +1,257 @@
+/**Start of Body Section**/
+body{
+    background-color: #fa9a8b;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top:50px;
+}
+/**End of Body Section**/
+
+
+/**Start of Main Section**/
+.main-section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/**Start of Main Section**/
+
+
+/**Start of Header Section**/
+.header{
+    border: 2px dotted;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    
+
+
+    
+    
+    
+
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align:center;
+}
+
+.header-content{
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+    
+
+.header-content h1{
+    clear:none;
+    margin-top: 70px;
+}
+
+.header-content a{
+    color:black;
+    text-decoration: none;
+}
+
+#bw{
+    float:left;
+}
+
+.header ul{
+   margin-top:-30px;
+}
+
+.header-content ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin:0.75rem 1rem;
+}
+
+.header-content ul li fa-phone{
+    padding:100px;
+}
+
+.fa-phone{
+    padding:.5rem;
+}
+
+.fa-envelope{
+    padding:.5rem;
+}
+
+.fa-github{
+  padding:4px;
+}
+
+.fa-print{
+    padding:.5rem;
+}
+
+.header button{
+    background-color: transparent; 
+    color:black;
+}
+/**End of Header Section**/
+
+
+/**Start of Animation Section**/
+.text{
+    animation:text 2s 1;
+    font-size:26px;
+    font-weight: bold;  
+    padding-top: 50px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+@keyframes text{
+    0%{ 
+    }
+
+    30%{
+        letter-spacing: 20px;
+        color:#f64e70;
+        font-weight: bold;
+      
+    }
+
+    85%{
+        letter-spacing: 10px;
+        color:#f64e70;
+        font-weight: bold;
+        
+    }  
+}
+/**End of Animation Section**/
+
+
+/**Start of Experience Section**/
+.experience{
+    padding-top:30px;
+}
+
+.experience h2{
+    padding-top: 80px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;   
+}
+
+.teacher{
+    padding:5px;
+}
+
+.teacher h3{
+    padding:10px;
+}
+
+.teacher ul li{
+    font-size:20px;
+}
+
+.liaison{
+    padding-top: 5px;
+}
+
+.liaison h3{
+    padding:10px;
+}
+
+.liaison ul li{
+    font-size:20px;
+}
+
+.code-savvy{
+    color: #2c1003;
+    font-weight: bold; 
+  
+   
+}
+
+.experience a {
+    text-decoration-color: #f64e70;
+}
+
+.ozobots {
+   font-weight:bold;  
+   color:black;
+}
+
+.microbits{
+    font-weight: bold;
+    color:black;
+    
+   
+    
+}
+/**End of Experience Section**/
+
+
+/**Start of Related Section**/
+.related{
+    padding-top: 30px;
+}
+
+.related h2{
+    padding-top: 30px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;    
+}
+
+.related ul li{
+    font-size: 20px;
+    list-style:none;
+    margin-left: -20px;
+}
+/**End of Related Section**/
+
+
+/**Start of Education Section**/
+.education{
+    padding-top: 30px;
+    text-align: left;   
+}
+
+.listed-ed ul li{
+    font-size: 20px;
+    list-style:none;
+    margin-left: -20px;
+    text-align: left;  
+}
+/**End of Education Section**/
+
+
+/**Start of Footer Section**/
+.footer{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    font-size: 20px;
+    position: absolute; 
+    width:100%; 
+}
+
+.footer ul{
+    text-align: center;   
+}
+
+.footer ul li{
+    display: inline-block;
+    margin:0.75rem 1rem; 
+}
+
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+
+.footer button{
+        background-color: transparent; 
+        color:black;
+       
+    }
+/**End of Footer Section**/
+
+
