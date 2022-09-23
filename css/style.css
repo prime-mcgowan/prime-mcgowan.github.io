@@ -1,7 +1,6 @@
 /**Start of Body Section**/
 body{
     background-color: #fa9a8b;
-
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top:50px;
 }
@@ -18,9 +17,9 @@ body{
 
 /**Start of Header Section**/
 .header{
-    border: 2px dotted;
     background-color: #FF9A8B;
     background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border: 2px dotted;
     display:flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -36,7 +35,6 @@ body{
     padding-left: 20px;
 }
     
-
 .header-content h1{
     clear:none;
     margin-top: 70px;
@@ -102,20 +100,16 @@ body{
 @keyframes text{
     0%{ 
     }
-
     30%{
+        color:#f64e70;
+        font-weight: bold;
         letter-spacing: 20px;
-        color:#f64e70;
-        font-weight: bold;
-      
-    }
-
+     }
     85%{
-        letter-spacing: 10px;
         color:#f64e70;
         font-weight: bold;
-        
-    }  
+        letter-spacing: 10px;
+        }  
 }
 /**End of Animation Section**/
 
@@ -159,8 +153,6 @@ body{
 .code-savvy{
     color: #2c1003;
     font-weight: bold; 
-  
-   
 }
 
 .experience a {
@@ -168,16 +160,13 @@ body{
 }
 
 .ozobots {
-   font-weight:bold;  
-   color:black;
+    color:black;
+    font-weight:bold;  
 }
 
 .microbits{
-    font-weight: bold;
     color:black;
-    
-   
-    
+    font-weight: bold;
 }
 /**End of Experience Section**/
 
@@ -243,31 +232,73 @@ body{
 .footer button{
         background-color: transparent; 
         color:black;
-       
-    }
+}
 /**End of Footer Section**/
 
-/**Start Mediq Queries**/
+
+/**Start Media Queries**/
 @media only screen and (max-width: 600px) {
 .header img{
-        display:none;
-    }
+    display:none;
+}
         
 .header h1{
     margin-top: 0;
 }
 
 .header-content ul li {
-   margin-left:-30px;
-}
-    
-.fa-envelope{
-    padding:.2rem;
+    margin-left:-50px;     
 }
 
-@keyframes text{    
-}    
+@keyframes text{  
+}  
+
+.related ul li{
+    padding-bottom: 20px;
+}
+
+.listed-ed ul li{
+    padding-bottom: 20px;
+}
+
+.footer ul{
+  align-items: center;
+}
+
+.footer ul li{
+    margin-left:-30px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  
+.header img{
+    padding-top:80px;
+    padding-left:20px;
+}
+
+ @keyframes text{
+    0%{ 
+        }
+    30%{
+        letter-spacing: 10px;
+        color:#f64e70;
+        font-weight: bold;
+        }
+        
+    85%{
+        letter-spacing: 5px;
+        color:#f64e70;
+        font-weight: bold;
+        }  
+}
+
+.related ul li{
+    padding-bottom: 20px;
+}
+        
+.listed-ed ul li{
+    padding-bottom: 20px;
+}
 }
 /**End Media Queries**/
-
-
